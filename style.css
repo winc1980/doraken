@@ -21,95 +21,115 @@ body * {
 }
 /* headerここから*/
 .header_contents{
-    position:relative;
-    width:100vw;
-    height:100px;
-    background-color:#025c98;
-    display:flex;
-    
+  position:relative;
+  height:100px;
+  width:100vw;
+  background-color:#025c98;
+  display:flex;
+  
 }
 .header_left_txt{
-    position:relative;
+  position:relative;
 }
 .header_left_txt_jp{
-    margin-top:23px;
-    margin-left:10%;
-    width:100%;
-    font-family:"lnter";
-    font-size: 3.5rem;
-    font-weight: 700;
-    line-height: 4.2rem;
-    text-align: left;
-    color:#ffffff;
+  margin-top:23px;
+  margin-left:3vw;
+  width:100%;
+  font-family:"lnter";
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  text-align: left;
+  color:#ffffff;
 
 }
 .header_left_txt_en{
-    margin-top:2px;
-    margin-left:10%;
-    width:100%;
-    font-family:"lnter";
-    font-size: 1.8rem;
-    font-weight: 700;
-    line-height: 2.1rem;
-    text-align: left;
-    color:#ffffff;
-    letter-spacing:0.22rem;
+  margin-top:2px;
+  margin-left:3vw;
+  width:100%;
+  font-family:"lnter";
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  text-align: left;
+  color:#ffffff;
+  letter-spacing:0.22rem;
 }
 .header_right_btns{
-    display:flex;
-    width:600px;
-    position:relative;
-    margin-left: auto;
+  display:flex;
+  width:40vw;
+  position:relative;
+  margin-left: auto;
 }
 .header_right_btns_boardMembersHistory{
-    display:block;
-    padding-top:40px;
-    width:80%;
-    font-family:"lnter";
-    font-size: 2.0rem;
-    font-weight: 700;
-    line-height: 2.4rem;
-    color:#ffffff;
-    text-align: center;
-    background-color:#025c98;
+  display:block;
+  padding-top:40px;
+  width:80%;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  background-color:#025c98;
 }
 .header_right_btns_boardMembersHistory:hover{
-    background-color:#004588;
+  background-color:#004588;
 }
 .header_right_btns_annualSchedule{
-    display:block;
-    padding-top:40px;
-    padding-left:20px;
-    width:100%;
-    font-family:"lnter";
-    font-size: 2.0rem;
-    font-weight: 700;
-    line-height: 2.4rem;
-    color:#ffffff;
-    text-align: center;
-    background-color:#025c98;
+  display:block;
+  padding-top:40px;
+  padding-left:1%;
+  width:100%;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  background-color:#025c98;
 
 }
 .header_right_btns_annualSchedule:hover{
-    background-color:#004588;
+  background-color:#004588;
 }
 .header_right_btns_gallery{
-    display:block;
-    padding-top:40px;
-    width:80%;
-    margin-right:20px;
-    font-family:"lnter";
-    font-size: 2.0rem;
-    font-weight: 700;
-    line-height: 2.4rem;
-    color:#ffffff;
-    text-align: center;
-    
+  display:block;
+  padding-top:40px;
+  width:80%;
+  margin-right:20px;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  
 }
 .header_right_btns_gallery:hover{
-    background-color:#004588;
+  background-color:#004588;
 }
 /* headerここまで*/
+/*titleここから*/
+.title{
+  position: relative;
+  width:100vw;
+  height: 239px;
+  background: #002764;
+}
+.title_annualScedule{
+  width: 40%;
+  font-family: "Inter";
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#ffffff;
+  margin-left: 8%;
+  padding-top: 100px;
+}
+/*titleここまで*/
 
 /* firstViewここから*/
 .firstView_contents{
