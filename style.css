@@ -19,3 +19,145 @@ body * {
     font-size: 1.6rem;
     margin: 0;
 }
+
+/* 担当---------------小山祐希--------------- */
+/* 1/2ページ目 */
+.wrapper_date{
+    height: 568px;
+    background-color: #025C98;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper_date p{
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+
+.container_date{
+    margin: 0 auto;
+    max-width: 1180px;
+    position: sticky;
+    z-index: 2;
+}
+
+.container_date > p{
+    font-size: 25px;
+    padding-top: 125px;
+}
+
+.container_date_explanation{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_date_place{
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.container_date_explanation > img{
+    width: 345px;
+    height: 260px;
+}
+
+.container_date_button{
+    display: inline-flex;
+    width: 263px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #002764;
+}
+
+.circle_yello_right{
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 45px;
+    right: -70px;
+    background-color: #EFC73A;
+    border-radius: 50%;
+}
+
+.circle_yello_left{
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 360px;
+    left: -80px;
+    background-color: #EFC73A;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* 小山2/2ページ目 */
+.wrapper_welcomeparty_info{
+    background-color: #01A2D9;
+    position: relative;
+    height: 544px;
+    z-index: 1;
+}
+
+.wrapper_welcomeparty_info p {
+    color: #000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wrapper_welcomeparty_info_sub{
+    width: 80%;
+    min-width: 1200px;
+    height: 544px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 200px 0px;
+    background: #EFC73A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+.container_welcome_info{
+    width: 1180px;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 3;
+
+}
+
+.welcome_info{
+    display: flex;
+    padding-top: 75px;
+}
+
+.welcome_info > img{
+    width: 32.544px;
+    height: 30.974px;
+    flex-shrink: 0;
+}
+
+.welcome_info > p{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.container_welcome_info > p {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    margin-top: 40px;
+}
