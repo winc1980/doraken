@@ -1,0 +1,245 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Noto Sans", serif;
+}
+
+img { border: 0;}
+
+body, nav, section, header, main, footer, h1, h2, p, ul, li, dl, dt, dd, div {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  font-family: "Noto Sans JP", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin: 0;
+}
+/* headerここから*/
+.header_contents{
+  position:relative;
+  height:100px;
+  width:100vw;
+  background-color:#025c98;
+  display:flex;
+  
+}
+.header_left_txt{
+  position:relative;
+}
+.header_left_txt_jp{
+  margin-top:23px;
+  margin-left:3vw;
+  width:100%;
+  font-family:"lnter";
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  text-align: left;
+  color:#ffffff;
+
+}
+.header_left_txt_en{
+  margin-top:2px;
+  margin-left:3vw;
+  width:100%;
+  font-family:"lnter";
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  text-align: left;
+  color:#ffffff;
+  letter-spacing:0.22rem;
+}
+.header_right_btns{
+  display:flex;
+  width:40vw;
+  position:relative;
+  margin-left: auto;
+}
+.header_right_btns_boardMembersHistory{
+  display:block;
+  padding-top:40px;
+  width:80%;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  background-color:#025c98;
+}
+.header_right_btns_boardMembersHistory:hover{
+  background-color:#004588;
+}
+.header_right_btns_annualSchedule{
+  display:block;
+  padding-top:40px;
+  padding-left:1%;
+  width:100%;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  background-color:#025c98;
+
+}
+.header_right_btns_annualSchedule:hover{
+  background-color:#004588;
+}
+.header_right_btns_gallery{
+  display:block;
+  padding-top:40px;
+  width:80%;
+  margin-right:20px;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  
+}
+.header_right_btns_gallery:hover{
+  background-color:#004588;
+}
+/* headerここまで*/
+/*titleここから*/
+.title{
+  position: relative;
+  width:100vw;
+  height: 239px;
+  background: #002764;
+}
+.title_annualScedule{
+  width: 40%;
+  font-family: "Inter";
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#ffffff;
+  margin-left: 8%;
+  padding-top: 100px;
+}
+/*titleここまで*/
+/*contentsここから*/
+.contents{
+  position:relative;
+  width:100vw;
+}
+.backgroundImg{
+  width:100vw;
+  background-color:#01A2D9;
+  position:absolute;
+  z-index:0;
+}
+.contents_title{
+  position:absolute;
+  width:50vw;
+  font-family: "Inter";
+  font-size: 3.0rem;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color:#ffffff;
+  padding-top: 160px;
+  padding-left:8%;
+}
+.inner_contents{
+  position:absolute;
+  width:60%;
+  height:180vw;
+  background-color:#002764;
+  z-index:2;
+  margin-left:20vw;
+  margin-top:25vw;
+}
+.leftSideType1{
+  position: relative;
+  height:20vw;
+  width:60vw;
+  margin-top: 15vw;
+  display: flex;
+}
+.leftSideType{
+  position: relative;
+  height:20vw;
+  width: 60vw;
+  display: flex;
+  margin-top:3vw;
+}
+.leftSideType_img{
+  position: absolute;
+  width:25vw;
+}
+.leftSideType_txtBox{
+  position: absolute;
+  margin-top:56px;
+  width:60vw;
+  height:10vw;
+  background-color:#0C4E8F;
+}
+.leftSideType_txt{
+  width:28vw;
+  position:absolute;
+  font-family: "Inter";
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 44px;
+  color:#ffffff;
+  padding-top: 3.5vw;
+  margin-left:30vw;
+}
+.rightSideType{
+  position:relative;
+  height:20vw;
+  width: 60vw;
+  display: flex;
+  margin-top:3vw;
+
+}
+.rightSideType_img{
+  position: absolute;
+  width:25vw;
+  margin-left:35vw;
+}
+.rightSideType_txtBox{
+  position: absolute;
+  display: flex;
+  margin-top:56px;
+  width:60vw;
+  height:10vw;
+  background-color:#0C4E8F;
+}
+.rightSideType_txt{
+  width:25vw;
+  position:absolute;
+  font-family: "Inter";
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 44px;
+  color:#ffffff;
+  padding-top: 3.5vw;
+  margin-left:13vw;
+}
+.leftSideType_txt_link{
+  display:block;
+  position:absolute;
+  font-family: "Inter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 44px;
+  color:#ffffff;
+  float: right;
+  margin-left:34vw;
+  padding-top: 3.5vw;
+}
+
+/*contentsここまで*/
