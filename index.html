@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ドラえもん研究会</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +12,51 @@
 </head>
 <body>
     <!-- ヘッダーここから -->
-    <!-- ヘッダーここまで -->
-    <!-- ファーストビュー+メインセンテンスここから -->
-    <!-- ファーストビュー+メインセンテンスここまで -->
-    <!-- "サークルについて"＋"活動"ここから -->
+    <header>
+        <section class="header_contents">
+            <div class="header_left_txt">
+                <h1 class="header_left_txt_jp">早稲田大学 ドラえもん研究会</h1>
+                <p class="header_left_txt_en">waseda univercity doraemon study club</p>
+            </div>
+            <div class="header_right_btns">
+                <a class="header_right_btns_boardMembersHistory" href="https://www.figma.com/file/i6TpSf7Y5G3JY4jvM5cf4W/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E7%A0%94%E7%A9%B6%E4%BC%9A?type=design&node-id=109-5&mode=design&t=cy6YBVbtOdwlk6Vy-0">歴代役員</a>
+                <a class="header_right_btns_annualSchedule">年間スケジュール</a>
+                <a class="header_right_btns_gallery">ギャラリー</a>
+            </div>
+        </section>
+    </header>
+        <!-- ヘッダーここまで -->
+        <!-- ファーストビュー+メインセンテンスここから -->
+    <section class="firstView_contents">
+        <img class="firstView_img" src="doc/images/firstView_img_src.png">
+        <!--<img class="firstView_touchedDoor_img" src="doc/images/firstView_touchedDoor_img_src.png">-->
+        <img id="firstView_openDoor_img" class="firstView_openDoor_img" src="doc/images/firstView_openDoor_img_src.png">
+        <a class="firstView_closedDoor_join" href="https://www.figma.com/file/i6TpSf7Y5G3JY4jvM5cf4W/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E7%A0%94%E7%A9%B6%E4%BC%9A?type=design&node-id=109-5&mode=design&t=uPCNPgRJMqnBfbzn-0"><img id="firstView_closedDoor_img"  class="firstView_closedDoor_img" src="doc/images/firstView_closedDoor_img_src.png" onmouseover="openDoor();"onmouseout="closeDoor();"></a>
+        <h1 class="firstView_txt">ドラえもん好きあつまれ！</h1>
+    </section>
+        <!-- ファーストビュー+メインセンテンスここまで -->
+        <!-- "サークルについて"＋"活動"ここから -->
+    <section class="aboutCircle_activity_contents">
+        <img class="aboutCircle_activity_contents_img" src="doc/images/aboutCircle_activity_contents_img.png">
+        <!--
+        <h2 class="aboutCircle_activity_txt_waseda">WASEDA</h2>
+        <h1 class="aboutCircle_activity_txt_doraemon">DORAEMON</h1>
+        <h1 class="aboutCircle_activity_txt_study">STUDY</h1>
+        <h1 class="aboutCircle_activity_txt_club">CLUB</h1>
+        <h1 class="aboutCircle_activity_txt_f">Fujiko F. Fujio</h1>
+        -->
+        <div class="aboutCircle_contents">
+            <img class="aboutCircle_activity_aboutCircle_bell_img" src="doc/images/bell.png">
+            <p class="aboutCircle_activity_aboutCircle_titleText">サークルについて</p>
+            <p class="aboutCircle_activity_aboutCircle_txt">「早稲田大学ドラえもん研究会」 といいます。省略してドラ研と呼 ばれることも多いです。2005年 発足の早稲田大学公認サークルです。</p>
+        </div>
+        <div class="aboutCircle_activity_activity_contents">
+            <img class="aboutCircle_activity_activity_bell_img" src="doc/images/bell.png">
+            <p class="aboutCircle_activity_activity_titleText">活動</p>
+            <p class="aboutCircle_activity_activity_txt">ドラえもんの魅力をもっと伝えるために、ドラえもん関連施設の訪問やドラえもん検定の作問など様々な活動を行っています。インカレなので他大の方も大歓迎です！<br>
+                サークルのかけもちも問題ありません。学年関係なく入会希望の方お待ちしてます！！普段はみんなでドラえもんのアニメを見たり、イラストを描いたりと自由に活動しています。</p>
+        </div>
+    </section>
     <!-- "サークルについて"＋"活動"ここまで -->
     <!-- 活動場所・日時ここから -->
     <div class="wrapper_date">
@@ -65,5 +107,16 @@
     <!-- リンクブロック＋フッターまでの領域ここまで -->
     <!-- フッターここから -->
     <!-- フッターここまで -->
+    <script>
+        function openDoor(){
+            const firstView_openDoor=document.getElementById("firstView_closedDoor_img")
+            firstView_openDoor.style.opacity='0';
+        }
+        function closeDoor(){
+            const firstView_closeDoor=document.getElementById("firstView_closedDoor_img")
+            firstView_closeDoor.style.opacity='1';
+        }
+
+    </script>
 </body>
 </html>
