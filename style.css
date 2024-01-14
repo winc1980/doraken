@@ -26,7 +26,6 @@ body * {
   width:100vw;
   background-color:#025c98;
   display:flex;
-  
 }
 .header_left_txt{
   position:relative;
@@ -194,7 +193,7 @@ body * {
 
 }
 .aboutCircle_activity_contents_img{
-    position:absolute;
+    /* position:absolute; */
     width:100vw;
     background: #01A2D9;
 }
@@ -343,7 +342,7 @@ body * {
 
 
 /* 担当---------------小山祐希--------------- */
-/* 1/2ページ目 */
+/* ----------1/2ページ目---------- */
 .wrapper_date{
     height: 568px;
     background-color: #025C98;
@@ -424,7 +423,7 @@ body * {
     z-index: 1;
 }
 
-/* 小山2/2ページ目 */
+/* ----------2/2ページ目---------- */
 .wrapper_welcomeparty_info{
     background-color: #01A2D9;
     position: relative;
@@ -442,7 +441,7 @@ body * {
 
 .wrapper_welcomeparty_info_sub{
     width: 80%;
-    min-width: 1200px;
+    min-width: 1000px;
     height: 544px;
     flex-shrink: 0;
     border-radius: 0px 0px 200px 0px;
