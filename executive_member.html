@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="executive_member.css">
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="style.css" media="all">
+  <script defer src="executive_member.js"></script>
 </head>
 <body>
   <header>
@@ -25,135 +26,158 @@
     <p>歴代役員</p>
   </div>
   <div class="wrapper_contents_executive">
-    <!-- ボタン -->
-    <div class="contents_change_btn">
-      <img src="./doc/images/Frame 190.webp">
-      <div class="contents_change_btn_left">
-        <img src="./doc/images/Ellipse 50.webp">
-        <img src="./doc/images/Line 36.webp">
-        <p class="change_btn_text_left">新しい順</p>
-      </div>
-      <div class="contents_change_btn_right">
-        <img src="./doc/images/Ellipse 51.webp">
-        <img src="./doc/images/Line 37.webp">
-        <p class="change_btn_text_right">古い順</p>
-      </div>
-    </div>
-    <!-- ボタン -->
-    <div class="contents_executive">
-      <pre class="bold-text">2005~2006年度 初代</pre>
-      <div class="executive_profile_flex">
-        <div class="executive_profile">
-          <pre class="bold-text">幹事長  柴ちゃん</pre>
-          <pre>〈所属〉<br>       第一文学部</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太のパラレル西遊記』</pre>
+    <div class="container_contens_executive">
+      <!-- ソートボタン -->
+      <div class="contents_change_btn">
+        <img class="contents_change_img" src="./doc/images/right_btn.webp">
+        <div class="contents_change_btn_left">
+          <p>新しい順</p>
         </div>
-        <div class="executive_profile">
-          <pre class="bold-text">副幹事長</pre>
-          <pre>///アンケート情報の提供待ち///</pre>
-        </div>
-        <div class="executive_profile">
-          <pre class="bold-text">会計  つねさん</pre>
-          <pre>〈所属〉<br>       第一文学部</pre>
-          <pre>〈ほしい道具〉<br>       もしもボックス</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太のドラビアンナイト』</pre>
+        <div class="contents_change_btn_right">
+          <p>古い順</p>
         </div>
       </div>
-    </div>
-    <div class="contents_executive">
-      <pre class="bold-text">2007年度 2代</pre>
-      <div class="executive_profile_flex">
-        <div class="executive_profile">
-          <pre class="bold-text">幹事長  チューン</pre>
-          <pre>〈所属〉<br>       理工学部</pre>
-          <pre>〈ほしい道具〉<br>       尋ね人ステッキ</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『おばあちゃんの思い出』</pre>
+      <!-- プロフィール -->
+      <div class="lists_executive">
+        <div class="contents_executive">
+          <p class="bold-text">2005~2006年度 初代</p>
+          <div class="executive_profile_flex">
+            <div class="executive_profile">
+              <p class="bold-text">幹事長  柴ちゃん</p>
+              <p>〈所属〉<br>       第一文学部</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太のパラレル西遊記』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">副幹事長</p>
+              <p>///アンケート情報の提供待ち///</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">会計  つねさん</p>
+              <p>〈所属〉<br>       第一文学部</p>
+              <p>〈ほしい道具〉<br>       もしもボックス</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太のドラビアンナイト』</p>
+            </div>
+          </div>
         </div>
-        <div class="executive_profile">
-          <pre class="bold-text">副幹事長  関さん</pre>
-          <pre>〈ほしい道具〉<br>       もしもボックス</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太と夢幻三剣士』</pre>
+        <div class="contents_executive" id="executive-2">
+          <p class="bold-text">2007年度 2代</p>
+          <div class="executive_profile_flex">
+            <div class="executive_profile">
+              <p class="bold-text">幹事長  チューン</p>
+              <p>〈所属〉<br>       理工学部</p>
+              <p>〈ほしい道具〉<br>       尋ね人ステッキ</p>
+              <p>〈好きなドラえもん映画〉<br>     『おばあちゃんの思い出』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">副幹事長  関さん</p>
+              <p>〈ほしい道具〉<br>       もしもボックス</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太と夢幻三剣士』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">会計  クリ</p>
+              <p>〈所属〉<br>       理工学部</p>
+              <p>〈ほしい道具〉<br>       ノーリツチャカチャカ</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太の宇宙小戦争』<br>     『のび太とブリキの迷宮』</p>
+            </div>
+          </div>
         </div>
-        <div class="executive_profile">
-          <pre class="bold-text">会計  クリ</pre>
-          <pre>〈所属〉<br>       理工学部</pre>
-          <pre>〈ほしい道具〉<br>       ノーリツチャカチャカ</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太の宇宙小戦争』<br>     『のび太とブリキの迷宮』</pre>
+        <div class="contents_executive" id="executive-3">
+          <p class="bold-text">2007年度 3代</p>
+          <div class="executive_profile_flex">
+            <div class="executive_profile">
+              <p class="bold-text">幹事長  クリ</p>
+              <p>〈所属〉<br>       理工学部</p>
+              <p>〈ほしい道具〉<br>       ノーリツチャカチャカ</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太の宇宙小戦争』<br>     『のび太とブリキの迷宮』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">副幹事長  てつや</p>
+              <p>〈所属〉<br>       教育学部</p>
+              <p>〈ほしい道具〉<br>       ガールフレンドカタログメーカー</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太と夢幻三剣士』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">会計  ndbn</p>
+              <p>〈所属〉<br>       商学部</p>
+              <p>〈ほしい道具〉<br>       インスタントミニチュア</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太の宇宙開拓史』</p>
+            </div>
+          </div>
+        </div>
+        <div class="contents_executive" id="executive-4">
+          <p class="bold-text">2009年度 4代</p>
+          <div class="executive_profile_flex">
+            <div class="executive_profile">
+              <p class="bold-text">幹事長  ドラコルル</p>
+              <p>〈所属〉<br>       商学部</p>
+              <p>〈ほしい道具〉<br>       タイムふろしき</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太の宇宙開拓史』<br>     『のび太と鉄人兵団』<br>     『のび太と銀河超特急』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">副幹事長  マクソン</p>
+              <p>〈所属〉<br>       政治経済学部</p>
+              <p>〈ほしい道具〉<br>       アンキパンとスモールライト</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太の恐竜』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">会計  とかげ</p>
+              <p>〈所属〉<br>       教育学部</p>
+              <p>〈ほしい道具〉<br>       タイムマシン……ただ、それよりも航時局長の<br>       ポストの方がほしいです（笑）。</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太とブリキの迷宮』<br>     『新・のび太と鉄人兵団～はばたけ 天使たち～』</p>
+            </div>
+          </div>
+        </div>
+        <div class="contents_executive" id="executive-5">
+          <p class="bold-text">2010年度 5代</p>
+          <div class="executive_profile_flex">
+            <div class="executive_profile">
+              <p class="bold-text">幹事長  マクソン</p>
+              <p>〈所属〉<br>       政治経済学部</p>
+              <p>〈ほしい道具〉<br>       アンキパンとスモールライト</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太の恐竜』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">副幹事長  ふく</p>
+              <p>〈所属〉<br>       文化構想学部</p>
+              <p>〈ほしい道具〉<br>       チョージャワラシベ</p>
+              <p>〈好きなドラえもん映画〉<br>     基本的には同時上映含め全部好きだが<br>     一番は７作目の『のび太と鉄人兵団』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">会計  とかげ</p>
+              <p>〈所属〉<br>       教育学部</p>
+              <p>〈ほしい道具〉<br>       タイムマシン……ただ、それよりも航時局長の<br>       ポストの方がほしいです（笑）。</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太とブリキの迷宮』<br>     『新・のび太と鉄人兵団～はばたけ 天使たち～』</p>
+            </div>
+          </div>
+        </div>
+        <div class="contents_executive" id="executive-6">
+          <p class="bold-text">2011年度 6代</p>
+          <div class="executive_profile_flex">
+            <div class="executive_profile">
+              <p class="bold-text">幹事長  ふく</p>
+              <p>〈所属〉<br>       文化構想学部</p>
+              <p>〈ほしい道具〉<br>       チョージャワラシベ</p>
+              <p>〈好きなドラえもん映画〉<br>     基本的には同時上映含め全部好きだが<br>     一番は７作目の『のび太と鉄人兵団』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">副幹事長  七代目</p>
+              <p>〈所属〉<br>       教育学部</p>
+              <p>〈ほしい道具〉<br>       タイムマシン</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太と夢幻三剣士』</p>
+            </div>
+            <div class="executive_profile">
+              <p class="bold-text">会計  餅池</p>
+              <p>〈所属〉<br>       文学部</p>
+              <p>〈ほしい道具〉<br>       デンデンハウス</p>
+              <p>〈好きなドラえもん映画〉<br>     『のび太の海底鬼岩城』</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="contents_executive">
-      <pre class="bold-text">2009年度 4代</pre>
-      <div class="executive_profile_flex">
-        <div class="executive_profile">
-          <pre class="bold-text">幹事長  ドラコルル</pre>
-          <pre>〈所属〉<br>       商学部</pre>
-          <pre>〈ほしい道具〉<br>       タイムふろしき</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太の宇宙開拓史』<br>     『のび太と鉄人兵団』<br>     『のび太と銀河超特急』</pre>
-        </div>
-        <div class="executive_profile">
-          <pre class="bold-text">副幹事長  マクソン</pre>
-          <pre>〈所属〉<br>       政治経済学部</pre>
-          <pre>〈ほしい道具〉<br>       アンキパンとスモールライト</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太の恐竜』</pre>
-        </div>
-        <div class="executive_profile">
-          <pre class="bold-text">会計  とかげ</pre>
-          <pre>〈所属〉<br>       教育学部</pre>
-          <pre>〈ほしい道具〉<br>       タイムマシン……ただ、それよりも航時局長の<br>       ポストの方がほしいです（笑）。</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太とブリキの迷宮』<br>     『新・のび太と鉄人兵団～はばたけ 天使たち～』</pre>
-        </div>
+      <div class="toggle_btn">
+        <p>もっと見る</p>
       </div>
-    </div>
-    <div class="contents_executive">
-      <pre class="bold-text">2010年度 5代</pre>
-      <div class="executive_profile_flex">
-        <div class="executive_profile">
-          <pre class="bold-text">幹事長  マクソン</pre>
-          <pre>〈所属〉<br>       政治経済学部</pre>
-          <pre>〈ほしい道具〉<br>       アンキパンとスモールライト</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太の恐竜』</pre>
-        </div>
-        <div class="executive_profile">
-          <pre class="bold-text">副幹事長  ふく</pre>
-          <pre>〈所属〉<br>       文化構想学部</pre>
-          <pre>〈ほしい道具〉<br>       チョージャワラシベ</pre>
-          <pre>〈好きなドラえもん映画〉<br>     基本的には同時上映含め全部好きだが<br>     一番は７作目の『のび太と鉄人兵団』</pre>
-        </div>
-        <div class="executive_profile">
-          <pre class="bold-text">会計  とかげ</pre>
-          <pre>〈所属〉<br>       教育学部</pre>
-          <pre>〈ほしい道具〉<br>       タイムマシン……ただ、それよりも航時局長の<br>       ポストの方がほしいです（笑）。</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太とブリキの迷宮』<br>     『新・のび太と鉄人兵団～はばたけ 天使たち～』</pre>
-        </div>
-      </div>
-    </div>
-    <div class="contents_executive">
-      <pre class="bold-text">2011年度 6代</pre>
-      <div class="executive_profile_flex">
-        <div class="executive_profile">
-          <pre class="bold-text">幹事長  ふく</pre>
-          <pre>〈所属〉<br>       文化構想学部</pre>
-          <pre>〈ほしい道具〉<br>       チョージャワラシベ</pre>
-          <pre>〈好きなドラえもん映画〉<br>     基本的には同時上映含め全部好きだが<br>     一番は７作目の『のび太と鉄人兵団』</pre>
-        </div>
-        <div class="executive_profile">
-          <pre class="bold-text">副幹事長  七代目</pre>
-          <pre>〈所属〉<br>       教育学部</pre>
-          <pre>〈ほしい道具〉<br>       タイムマシン</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太と夢幻三剣士』</pre>
-        </div>
-        <div class="executive_profile">
-          <pre class="bold-text">会計  餅池</pre>
-          <pre>〈所属〉<br>       文学部</pre>
-          <pre>〈ほしい道具〉<br>       デンデンハウス</pre>
-          <pre>〈好きなドラえもん映画〉<br>     『のび太の海底鬼岩城』</pre>
-        </div>
-      </div>
-    </div>
-    <div class="more_btn">
-      <p>もっと見る</p>
-    </div>
   </div>
 </body>
 </html>
