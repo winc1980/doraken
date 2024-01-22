@@ -19,3 +19,282 @@ body * {
     font-size: 1.6rem;
     margin: 0;
 }
+.Container{
+    padding-top: 50px;
+    background-color: #01A2D9;
+    width: 1438px;
+}
+.Container1{
+    margin: 0 auto; 
+    background-color:#01A2D9; 
+    max-width: 1200px;  
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+}
+.img2 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+.img1 img{
+    height: 191.68px;
+    width: 191.68px;
+    text-align: right;
+     margin-top: -30px; 
+   
+}
+
+.Dora{
+    margin-top:-139px ;
+    background-color: #01A2D9;
+    max-width: 1200px;
+}
+.dorayaki1{
+    width: 704px;
+    height: 704px;
+    border-radius: 50%;
+    background-color: #FAF59F;
+    margin-left: 346px;
+    padding-top: 41px;
+    padding-left: 20px;
+    
+}
+.dorayaki2{
+    width: 625px;
+    height: 625px;
+    border-radius: 50%;
+    background-color: #936047;
+    margin-left:21px;
+    position: relative;
+    
+
+}
+.suzu{   
+    position: absolute;
+    top: 23%;
+    left: 26%;
+} 
+.suzu img{
+    width: 32px;
+    height: 30px;
+}
+.text h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 129px;
+    padding-left: 210px;
+} 
+.text ol{
+    list-style-type: none;
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 13%;
+    width: 417px;
+    height: 330px;
+}
+.text li{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+
+    
+}
+.tabekake{
+    position: relative;
+}
+
+.tabekake1{
+    width:131px;
+    height: 131px;
+    border-radius: 50%;
+    background-color:#01A2D9;  
+    position: absolute;
+    left: 90%;
+    margin-top: 41%;
+}
+.tabekake2{
+    width:131px;
+    height: 131px;
+    border-radius: 50%;
+    background-color:#01A2D9;  
+    position: absolute;
+    left: 78%;
+    margin-top: 46%;
+}
+.tabekake3{
+    width:131px;
+    height: 131px;
+    border-radius: 50%;
+    background-color:#01A2D9;  
+    position: absolute;
+    left: 68%;
+    margin-top: 59%;
+}
+
+
+.kyouryu img{
+    height: 420px;
+    width: 420px;
+}
+.kyouryu{
+    position: relative;
+    top: -26%;
+    left: 57%;
+    bottom: 0%;
+}
+
+.denki img{
+    width: 220px;
+    height: 220px;
+
+}
+.denki{
+    position: relative;
+    top: -57%;
+    left: -38%;
+    
+}
+
+
+.Container2{
+    height: 1500px;
+    margin: 0 auto; 
+    background-color:#01A2D9;
+    max-width: 1200px;
+}
+.SNS{
+    padding-top: 131px;
+    position: relative;
+    
+}
+.sns{
+    width: 448px;
+    height: 447px;
+    border-radius: 50%;
+    background-color:#EFC73A ;
+    margin-left: 156px;
+    
+}
+.sns h1{
+    font-size: 40px;
+    width: 82px;
+    height: 48px;
+    position: absolute;
+    top: 36%;
+    left: 30%;
+}
+.suzu1{
+    position: relative;
+    top: 21%;
+    left: 36%;
+}
+.san{
+    position: relative;
+    top: 40%;
+    left: 18%;
+}
+.logo {
+    position: relative;
+    top: 15%;
+    left: 28%;
+}
+.KAISHI{
+    width: 597px;
+    height: 597px;
+    border-radius: 50%;
+    background-color: #EFC73A;
+    margin-left: 631px;
+    position: relative;
+
+}
+.kaishi{
+    margin-left: 200px;
+    padding-top: 90px;
+}
+.tuhan{
+    margin-top: 6%;
+    position: relative;
+    left: -28%;
+    width: 423px;
+    height: 92px;
+    border-radius: 15px;
+    border: 3px solid #000;
+    background-color:#E1B209 ;
+}
+.tuhan a{
+    font-size: 40px;
+    position: absolute;
+    top: 14%;
+    left: 10%;
+}
+.kaishi.img{
+    margin-top: 20px;
+}
+.DOUGA{
+    width: 381px;
+    height: 381px;
+    border-radius: 50%;
+    background-color: #EFC73A;
+    margin-left: -428px;
+    position: absolute;
+    top: 87%;
+}
+.douga{
+    margin-left: 109px;
+    padding-top: 108px;
+    position: relative;
+}
+.douga a{
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top:32px;
+    margin-left: 1px;
+}
+
+.youtube{
+    width: 130px;
+    height: 100px;
+    flex-shrink: 0;
+    position:absolute;
+    left: 4%;
+    top: 115%;
+    border-radius: 15px;
+    border: 3px solid #000;
+    background: #E1B209;
+
+}
+.youtube img{
+    position: absolute;
+    left: 9%;
+}
+.Container3{
+    background-color: #01A2D9;
+    height: 813px;
+    
+}
+.Container3 img{
+    max-width:100%;
+}
+.footer{
+    max-width:100%;
+    height: 124px; 
+    background-color:#002764;  
+}
+.footer p{
+    font-size: 14px;
+    color: white;
+}
+.TEXT{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
