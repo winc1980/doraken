@@ -7,15 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const changeBtnLeft = document.querySelector('.contents_change_btn_right');
   const changeBtnRight = document.querySelector('.contents_change_btn_left');
   const changeBtnImg = document.querySelector('.contents_change_img');
-
-  // プロフィール欄取得
   const contentsExecutives = document.querySelectorAll('.contents_executive');
-
-  // Toggle Botton
+  const plofilemoreBtn = document.querySelectorAll('.executive_profile_more');
+  // const addplofile = document.querySelectorAll('.add_executive_profile');
   const toggleBtn = document.querySelector('.toggle_btn');
-  
-  // 5代目から非表示
-  
   // 順番を入れ替える関数
   function SortReverse() {
     // Executive要素を再取得
@@ -50,4 +45,12 @@ document.addEventListener('DOMContentLoaded', function () {
       element.style.display = "block";
     });
   });
+//プロフィールの追加
+  plofilemoreBtn.forEach(function(element) {
+    element.addEventListener('click', function() {
+      this.style.display = "none"
+      let addprofile = this.parentNode.querySelector('.add_executive_profile')
+      addprofile.style.display = "block"
+    })
+  })
 });

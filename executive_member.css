@@ -195,15 +195,14 @@ body * {
   border-radius: 50px;
   background: #FFF2C3;
   margin-bottom: 70px;
-  padding: 30px 10px 20px 10px;
+  padding: 30px 30px 20px 30px;
 }
 
-.contents_executive:nth-child(n+5){
+.contents_executive:nth-child(n+7){
   display: none;
 }
 
 .contents_executive p{
-  color: #000;
   font-family: 'Inter';
   font-size: 15px;
   font-weight: 700;
@@ -211,21 +210,38 @@ body * {
 
 .executive_profile_flex{
   margin-top: 10px;
+  margin-left: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.executive_profile>*{
+.executive_profile{
+  width: 300px;
+}
+
+.executive_profile>:nth-child(2n){
   margin-top: 10px;
   word-wrap: break-word;
 }
 
-.executive_profile>:nth-child(1){
-  margin-top: 0px;
+.executive_profile>:nth-child(2n+3){
+  padding-left: 20px;
 }
 
 .bold-text{
   font-size: 20px!important;
+}
+
+.executive_profile_more{
+  margin-top: 10px;
+  text-align: center;
+  color: #BDB28C;
+}
+
+.add_executive_profile{
+  display: none;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
 .toggle_btn{
@@ -244,4 +260,29 @@ body * {
   font-family: 'Inter';
   font-size: 20px;
   font-weight: 700;
+}
+
+.hidden{
+  display: none;
+}
+
+.is-show{
+  display: block;
+}
+
+@media screen and (max-width: 680px){
+
+.executive_profile_flex{
+  margin-left: 0px;
+  display: block;
+}
+
+.executive_profile{
+  margin-bottom: 30px;
+}
+
+.add_executive_profile{
+  margin-top: 0px;
+  margin-left: 0px;
+}
 }
