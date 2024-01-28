@@ -26,7 +26,6 @@ body * {
   width:100vw;
   background-color:#025c98;
   display:flex;
-  
 }
 .header_left_txt{
   position:relative;
@@ -194,7 +193,7 @@ body * {
 
 }
 .aboutCircle_activity_contents_img{
-    position:absolute;
+    /* position:absolute; */
     width:100vw;
     background: #01A2D9;
 }
@@ -343,10 +342,11 @@ body * {
 
 
 /* 担当---------------小山祐希--------------- */
-/* 1/2ページ目 */
+/* ----------1/2ページ目---------- */
 .wrapper_date{
     height: 568px;
     background-color: #025C98;
+    padding: 125px 30px 0px 30px;
     position: relative;
     overflow: hidden;
 }
@@ -370,13 +370,16 @@ body * {
 
 .container_date > p{
     font-size: 25px;
-    padding-top: 125px;
 }
 
 .container_date_explanation{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+.container_date_explanation > p{
+    max-width: 350px;
 }
 
 .container_date_place{
@@ -399,6 +402,10 @@ body * {
     flex-shrink: 0;
     border-radius: 10px;
     background: #002764;
+}
+
+.map{
+    display: none;
 }
 
 .circle_yello_right{
@@ -424,11 +431,13 @@ body * {
     z-index: 1;
 }
 
-/* 小山2/2ページ目 */
+/* ----------2/2ページ目---------- */
 .wrapper_welcomeparty_info{
     background-color: #01A2D9;
+    padding: 75px 30px 0px 30px;
     position: relative;
     height: 544px;
+    overflow: hidden;
     z-index: 1;
 }
 
@@ -442,7 +451,7 @@ body * {
 
 .wrapper_welcomeparty_info_sub{
     width: 80%;
-    min-width: 1200px;
+    min-width: 1000px;
     height: 544px;
     flex-shrink: 0;
     border-radius: 0px 0px 200px 0px;
@@ -455,16 +464,14 @@ body * {
 
 
 .container_welcome_info{
-    width: 1180px;
+    max-width: 1180px;
     margin: 0 auto;
     position: sticky;
     z-index: 3;
-
 }
 
 .welcome_info{
     display: flex;
-    padding-top: 75px;
 }
 
 .welcome_info > img{
@@ -482,4 +489,98 @@ body * {
     font-size: 16px;
     letter-spacing: 1.6px;
     margin-top: 40px;
+}
+
+@media screen and (max-width: 680px){
+/* 担当---------------小山祐希--------------- */
+/* ----------1/2ページ目---------- */
+.wrapper_date{
+    height: 350px;
+    background-color: #004588;
+    padding: 36px 35px 17px 35px;
+}
+
+.wrapper_date p{
+    font-size: 7px;
+}
+
+.container_date > p{
+    font-size: 10px;
+}
+
+.container_date_explanation{
+    margin-top: 30px;
+    display: block;
+    justify-content: space-between;
+}
+
+.container_date_place{
+    margin-top: 40px;
+    display: flex;
+    flex-flow:row;
+    gap: 0px;
+    justify-content: space-around;
+}
+
+.container_date_explanation > img{
+    display: none;
+}
+
+.container_date_button{
+    display: none;
+}
+
+.map{
+    display: block;
+    margin: 20px auto;
+}
+
+.circle_yello_right{
+    display: none;
+}
+
+.circle_yello_left{
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 80px;
+    left: -140px;
+    background-color: #EFC73A;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* ----------2/2ページ目---------- */
+.wrapper_welcomeparty_info{
+    background-color: #00163A;
+    padding: 15px 80px 30px 10px;
+    height: auto;
+    min-height: 150px;
+}
+
+.wrapper_welcomeparty_info_sub{
+    width: 85%;
+    min-width: 0px;
+    max-width: 350px;
+    height: 100%;
+    border-radius: 0px 0px 50px 0px;
+    background: #FAF59F;
+}
+
+.welcome_info > img{
+    width: 13px;
+    height: 13px;
+}
+
+.welcome_info > p{
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.container_welcome_info > p {
+    font-size: 7px;
+    margin-top: 20px;
+}
+
 }
