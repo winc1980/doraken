@@ -108,6 +108,65 @@ body * {
 .header_right_btns_gallery:hover{
   background-color:#004588;
 }
+@media screen and (max-width:1110px) {
+  .header_left_txt_jp{
+      margin-top:26px;
+      margin-left:3vw;
+      width:100%;
+      font-size: 2.5rem;
+    }
+  .header_left_txt_en{
+      margin-bottom:20px;
+      margin-left:3vw;
+      width:100%;
+      font-family:"lnter";
+      font-size: 1.2rem;
+  }
+  .header_right_btns_boardMembersHistory{
+      display:block;
+      padding-top:40px;
+      width:80%;
+      font-family:"lnter";
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 2.4rem;
+      color:#ffffff;
+      text-align: center;
+      background-color:#025c98;
+    }
+    .header_right_btns_boardMembersHistory:hover{
+      background-color:#004588;
+    }
+    .header_right_btns_annualSchedule{
+      display:block;
+      padding-top:40px;
+      width:100%;
+      font-family:"lnter";
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 2.4rem;
+      color:#ffffff;
+      text-align: center;
+      background-color:#025c98;
+    
+    }
+    .header_right_btns_annualSchedule:hover{
+      background-color:#004588;
+    }
+    .header_right_btns_gallery{
+      display:block;
+      padding-top:40px;
+      width:80%;
+      margin-right:20px;
+      font-family:"lnter";
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 2.4rem;
+      color:#ffffff;
+      text-align: center;
+      
+    }
+}
 /* headerここまで*/
 /*titleここから*/
 .title{
@@ -127,6 +186,10 @@ body * {
   color:#ffffff;
   margin-left: 8%;
   padding-top: 100px;
+}@media screen and (max-width:1110px) {
+  .title_annualScedule{
+    font-size: 2.7rem;
+  }
 }
 /*titleここまで*/
 /*contentsここから*/
@@ -240,6 +303,65 @@ body * {
   float: right;
   margin-left:34vw;
   padding-top: 3.5vw;
+}@media screen and (max-width:800px) {
+  .contents_title{
+    position:absolute;
+    width:60vw;
+    font-family: "Inter";
+    font-size:2.6rem;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color:#ffffff;
+    padding-top: 60px;
+    padding-left:8%;
+  }
+  .leftSideType_txtBox{
+    margin-top:20px;
+  }
+  .leftSideType_txt{
+    width:30vw;
+    position:absolute;
+    font-family: "Inter";
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 44px;
+    color:#ffffff;
+    padding-top: 2.0vw;
+    margin-left:28vw;
+  }
+  .rightSideType_txt{
+    width:25vw;
+    position:absolute;
+    font-family: "Inter";
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 44px;
+    color:#ffffff;
+    padding-top: 1.2vw;
+    margin-left: 7vw;
+  }
+  .rightSideType_txtBox{
+    position: absolute;
+    display: flex;
+    margin-top:32px;
+    width:60vw;
+    height:10vw;
+    background-color:#0C4E8F;
+  }
+  .leftSideType_txt_link{
+    display:block;
+    position:absolute;
+    font-family: "Inter";
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 44px;
+    color:#ffffff;
+    float: right;
+    margin-left:34vw;
+    padding-top: 2.8vw;
+  }
 }
+
 
 /*contentsここまで*/
