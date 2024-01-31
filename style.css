@@ -19,6 +19,7 @@ body * {
     font-size: 1.6rem;
     margin: 0;
 }
+<<<<<<< HEAD
 .Container{
     padding-top: 50px;
     background-color: #01A2D9;
@@ -298,3 +299,570 @@ body * {
     padding-top: 20px;
 }
 
+=======
+/* headerここから*/
+.header_contents{
+  position:relative;
+  height:100px;
+  width:100vw;
+  background-color:#025c98;
+  display:flex;
+}
+.header_left_txt{
+  position:relative;
+}
+.header_left_txt_jp{
+  margin-top:23px;
+  margin-left:3vw;
+  width:100%;
+  font-family:"lnter";
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  text-align: left;
+  color:#ffffff;
+
+}
+.header_left_txt_en{
+  margin-top:2px;
+  margin-left:3vw;
+  width:100%;
+  font-family:"lnter";
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  text-align: left;
+  color:#ffffff;
+  letter-spacing:0.22rem;
+}
+.header_right_btns{
+  display:flex;
+  width:40vw;
+  position:relative;
+  margin-left: auto;
+}
+.header_right_btns_boardMembersHistory{
+  display:block;
+  padding-top:40px;
+  width:80%;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  background-color:#025c98;
+}
+.header_right_btns_boardMembersHistory:hover{
+  background-color:#004588;
+}
+.header_right_btns_annualSchedule{
+  display:block;
+  padding-top:40px;
+  padding-left:1%;
+  width:100%;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  background-color:#025c98;
+
+}
+.header_right_btns_annualSchedule:hover{
+  background-color:#004588;
+}
+.header_right_btns_gallery{
+  display:block;
+  padding-top:40px;
+  width:80%;
+  margin-right:20px;
+  font-family:"lnter";
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color:#ffffff;
+  text-align: center;
+  
+}
+.header_right_btns_gallery:hover{
+  background-color:#004588;
+}
+/* headerここまで*/
+/*titleここから*/
+.title{
+  position: relative;
+  width:100vw;
+  height: 239px;
+  background: #002764;
+}
+.title_annualScedule{
+  width: 40%;
+  font-family: "Inter";
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#ffffff;
+  margin-left: 8%;
+  padding-top: 100px;
+}
+/*titleここまで*/
+
+/* firstViewここから*/
+.firstView_contents{
+    position:relative;
+    height:52vw;
+}
+.firstView_img{
+    position:relative;
+    /*width:100vw;*/
+    width:100vw;
+}
+.firstView_closedDoor_join{
+    display:inline-block;
+    width:297px;
+    height: 346px;
+    position:absolute;
+    bottom:0;
+    left:70%;
+    opacity:1;
+}
+.firstView_closedDoor_img{
+    position:absolute;
+    bottom:0;
+    opacity:1;
+    margin-bottom:3px;
+    transition: 0.2s;
+    z-index: 3;
+
+}
+.firstView_openDoor_img{
+    position:absolute;
+    bottom:0;
+    left:70%;
+    opacity:1;
+    z-index: 2;
+}
+.firstView_touchedDoor_img{
+    position:absolute;
+    bottom:0;
+    left:70%;
+    z-index: 1;
+}
+.firstView_txt{
+    position:absolute;
+    font-weight:400;
+    font-size: 6.4rem;
+    width:70%;
+    color: #ffffff;
+    top:45vw;
+    left:117px;
+}
+
+
+/* firstViewここまで*/
+
+/* "サークルについて"＋"活動"ここから */
+.aboutCircle_activity_contents{
+    position:relative;
+    width:100vw;
+    max-height: fit-content;
+    display:flex;
+
+}
+.aboutCircle_activity_contents_img{
+    /* position:absolute; */
+    width:100vw;
+    background: #01A2D9;
+}
+/*
+.aboutCircle_activity_txt_waseda{
+    position:absolute;
+    width: 20vw;
+    height: 105.94px;
+    top: 5vw;
+    left: 10vw;
+    font-family: "Inter";
+    font-size: 9.5rem;
+    font-weight: 700;
+    line-height: 99px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF66;
+    opacity:40%;
+}
+.aboutCircle_activity_txt_doraemon{
+    position:absolute;
+    width: 35vw;
+    padding-top: 10vw;
+    padding-left: 35vw;
+    font-family:"Inter";
+    font-size: 12.0rem;
+    font-weight: 700;
+    line-height: 157px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF66;
+    opacity:50%;
+}
+.aboutCircle_activity_txt_study{
+    position:absolute;
+    font-family:"Inter";
+    font-size: 13.0rem;
+    font-weight: 700;
+    line-height: 157px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF66;
+    opacity:50%; 
+    margin-left: 76vw;
+    margin-top: 22vw;
+    transform:rotate(90deg); 
+}
+.aboutCircle_activity_txt_club{
+    position:absolute;
+    font-family:"Inter";
+    font-size: 13.0rem;
+    font-weight: 700;
+    line-height: 157px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF66;
+    opacity:50%; 
+    margin-left: 71vw;
+    margin-top: 26vw;
+    transform:rotate(90deg); 
+}
+.aboutCircle_activity_txt_f{
+    position:absolute;
+    padding-top: 59vw;
+    padding-left: 38vw;
+    font-family:"Inter";
+    font-size: 11.0rem;
+    font-weight: 700;
+    line-height: 157px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF66;
+    opacity:50%;
+}
+*/
+.aboutCircle_contents{
+    display:block;
+    background-color: #EFC73A;
+    border-radius: 50%;
+    width:28vw;
+    height:28vw;
+    margin-left:8vw;
+    margin-top: 22vw;
+    position:absolute;
+}
+.aboutCircle_activity_aboutCircle_bell_img{
+    padding-top: 6.3vw;
+    padding-left: 5vw;
+    position:absolute;
+}
+.aboutCircle_activity_aboutCircle_titleText{
+    padding-top: 6vw;
+    padding-left: 7.7vw;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 4.2rem;
+}
+.aboutCircle_activity_aboutCircle_txt{
+    padding-top: 11vw;
+    padding-left: 2.8vw;
+    position:absolute;
+    font-family:"Inter";
+    font-style: medium;
+    font-size: 1.5vw;
+    line-height:2.2vw;
+    width:27vw;
+}
+.aboutCircle_activity_activity_contents{
+    display:block;
+    background-color: #EFC73A;
+    border-radius: 50%;
+    width:37vw;
+    height:37vw;
+    margin-left:40vw;
+    margin-top: 20vw;
+    position:absolute;
+}
+.aboutCircle_activity_activity_bell_img{
+    padding-top: 5.3vw;
+    padding-left: 14vw;
+    position:absolute;
+}
+.aboutCircle_activity_activity_titleText{
+    padding-top: 5vw;
+    padding-left: 17.5vw;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 4.2rem;
+}
+.aboutCircle_activity_activity_txt{
+    padding-top: 9vw;
+    padding-left: 4.8vw;
+    position:absolute;
+    font-family:"Inter";
+    font-style: medium;
+    font-size: 1.5vw;
+    line-height:2.2vw;
+    width:33vw;
+}
+
+
+/* 担当---------------小山祐希--------------- */
+/* ----------1/2ページ目---------- */
+.wrapper_date{
+    height: 568px;
+    background-color: #025C98;
+    padding: 125px 30px 0px 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper_date p{
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+
+.container_date{
+    margin: 0 auto;
+    max-width: 1180px;
+    position: sticky;
+    z-index: 2;
+}
+
+.container_date > p{
+    font-size: 25px;
+}
+
+.container_date_explanation{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_date_explanation > p{
+    max-width: 350px;
+}
+
+.container_date_place{
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.container_date_explanation > img{
+    width: 345px;
+    height: 260px;
+}
+
+.container_date_button{
+    display: inline-flex;
+    width: 263px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #002764;
+}
+
+.map{
+    display: none;
+}
+
+.circle_yello_right{
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 45px;
+    right: -70px;
+    background-color: #EFC73A;
+    border-radius: 50%;
+}
+
+.circle_yello_left{
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 360px;
+    left: -80px;
+    background-color: #EFC73A;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* ----------2/2ページ目---------- */
+.wrapper_welcomeparty_info{
+    background-color: #01A2D9;
+    padding: 75px 30px 0px 30px;
+    position: relative;
+    height: 544px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.wrapper_welcomeparty_info p {
+    color: #000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wrapper_welcomeparty_info_sub{
+    width: 80%;
+    min-width: 1000px;
+    height: 544px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 200px 0px;
+    background: #EFC73A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+.container_welcome_info{
+    max-width: 1180px;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 3;
+}
+
+.welcome_info{
+    display: flex;
+}
+
+.welcome_info > img{
+    width: 32.544px;
+    height: 30.974px;
+    flex-shrink: 0;
+}
+
+.welcome_info > p{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.container_welcome_info > p {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 680px){
+/* 担当---------------小山祐希--------------- */
+/* ----------1/2ページ目---------- */
+.wrapper_date{
+    height: 350px;
+    background-color: #004588;
+    padding: 36px 35px 17px 35px;
+}
+
+.wrapper_date p{
+    font-size: 7px;
+}
+
+.container_date > p{
+    font-size: 10px;
+}
+
+.container_date_explanation{
+    margin-top: 30px;
+    display: block;
+    justify-content: space-between;
+}
+
+.container_date_place{
+    margin-top: 40px;
+    display: flex;
+    flex-flow:row;
+    gap: 0px;
+    justify-content: space-around;
+}
+
+.container_date_explanation > img{
+    display: none;
+}
+
+.container_date_button{
+    display: none;
+}
+
+.map{
+    display: block;
+    margin: 20px auto;
+}
+
+.circle_yello_right{
+    display: none;
+}
+
+.circle_yello_left{
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 80px;
+    left: -140px;
+    background-color: #EFC73A;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* ----------2/2ページ目---------- */
+.wrapper_welcomeparty_info{
+    background-color: #00163A;
+    padding: 15px 80px 30px 10px;
+    height: auto;
+    min-height: 150px;
+}
+
+.wrapper_welcomeparty_info_sub{
+    width: 85%;
+    min-width: 0px;
+    max-width: 350px;
+    height: 100%;
+    border-radius: 0px 0px 50px 0px;
+    background: #FAF59F;
+}
+
+.welcome_info > img{
+    width: 13px;
+    height: 13px;
+}
+
+.welcome_info > p{
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.container_welcome_info > p {
+    font-size: 7px;
+    margin-top: 20px;
+}
+
+}
+>>>>>>> origin/main
