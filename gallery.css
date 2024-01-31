@@ -1,0 +1,875 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Noto Sans", serif;
+}
+
+img {
+    border: 0;
+}
+
+body,
+nav,
+section,
+header,
+main,
+footer,
+h1,
+h2,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-family: "Noto Sans JP", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.Container {
+    max-width: 100%;
+    height: 100px;
+    background: #025C98;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail {
+    color: white;
+}
+
+.thumbnail h1 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 19%;
+    left: 5%;
+}
+
+.thumbnail a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+}
+
+.rekidai {
+    width: 164px;
+    height: 136px;
+    position: absolute;
+    left: 59%;
+
+}
+.rekidai a{
+    position: absolute;
+    top: 32%;
+    left: 32%;
+    color: white;
+}
+.rekidai:hover{
+    background-color: #004588;
+
+}
+
+.nenkan {
+    position: absolute;
+    left: 72%;
+    width: 164px;
+    height: 136px;
+}
+
+.nenkan a {
+    position: absolute;
+    left: 12%;
+    top: 32%;
+    color: white;
+}
+.nenkan:hover{
+    background-color: #004588;
+}
+
+
+
+.photo {
+    position: absolute;
+    left: 85%;
+    width: 164px;
+    height: 136px;
+
+}
+
+.photo a {
+    position: absolute;
+    top: 33%;
+    left: 23%;
+    color: white;
+}
+
+ .photo:hover{
+    background-color: #004588;   
+}
+
+.main {
+    width: 1440px;
+    height: 1508px;
+    position: relative;
+}
+
+.Container2 {
+    background-color: #01A2D9;
+    width: 100%;
+
+}
+
+.top {
+    height: 239px;
+    background: #002764;
+    max-width: 100%;
+    position: relative;
+}
+
+.top a {
+    max-width: 100%;
+    position: absolute;
+    top: 35%;
+    left: 11%;
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.katudou {
+    height: 217px;
+    padding-left: 11%;
+    display: flex;
+    align-items: center;
+}
+
+.katudou a {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.activity-photos {
+    height: 677px;
+    background: #002764;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.activity-photos .swiper .swiper-wrapper .swiper-slide {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 100px 0;
+    place-items: center;
+}
+
+.swiper-pagination {
+    text-align: center;
+    color: white;
+    bottom: 45px;
+    font-size: 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    bottom: 35px;
+    top: auto;
+    right: 45vw;
+}
+
+.swiper-button-prev {
+    left: 45vw;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.swiper-button-prev::after{
+    transform: rotate(-135deg);
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: white;
+}
+
+
+
+.illust {
+    height: 217px;
+    padding-left: 11%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.illust a {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.illust-photos {
+    height: 677px;
+    background: #002764;
+    width: 100%;
+    position: relative;
+}
+
+.illust-photos .swiper2{
+    padding-top: 91px;
+}
+
+.swiper2 .swiper-wrapper .swiper-slide{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 100px 0;
+    place-items: center;
+}
+
+.swiper2-pagination {
+    text-align: center;
+    color: white;
+    bottom: -63px;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+
+.triangle-1 {
+    transform: rotate(270deg);
+    position: absolute;
+    left: 41%;
+    top: 83%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom:border-left * 1.732 solid white;
+
+  }
+
+  /* border-leftとborder-rightの値を同じもにする /
+          / border-bottomの値を「border-left * 1.732」の値にする /
+          / 上記の式で正三角形が作れる。 */
+
+  .triangle-2 {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 565px;
+    left: 661.8px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 69.28px solid rgb(255, 255, 255);
+  }
+/* .swiper2-button-prev,
+.swiper2-button-next{
+    position: absolute;
+    bottom: 86px;
+    top: auto;
+    right: 45vw;
+}
+
+.swiper2-button-prev{
+    left: 45vw;
+}
+
+.swiper2-button-prev::after,
+.swiper2-button-next::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 0%; 
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.swiper2-button-prev::after{
+    transform: rotate(-135deg);
+}
+
+.swiper2-button-prev::before,
+.swiper2-button-next::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 7%;
+    top: 0%; 
+    width: 2px;
+    height: 20px;
+    background: white;
+} */
+
+
+.en1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.en2 img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.enn {
+    position: relative;
+}
+
+.ellips15 {
+    position: absolute;
+    left: 0%;
+    width: 186px;
+    height: 187px;
+    border-radius: 50%;
+    background-color: #EFC73A;
+    margin-top: 0%;
+
+}
+
+.ellips18 {
+    position: absolute;
+    left: 0%;
+    width: 287px;
+    height: 288px;
+    border-radius: 50%;
+    background-color: #EFC73A;
+    margin-top: 0%;
+
+}
+
+.hp-link-container{
+    height: 600px;
+    position: relative;
+    background-color: #01A2D9;
+}
+
+.hp {
+    width: 337px;
+    height: 337px;
+    border-radius: 50%;
+    background-color: #EFC73A;
+    position: relative;
+    margin-left: 120px;
+}
+
+.en3 img{
+    margin-left: auto;
+    display: block;
+}
+
+.hp p1 {
+    position: absolute;
+    top: 29%;
+    left: 13%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hp a {
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.En2 {
+    position: relative;
+}
+
+.enn2 {
+    width: 218px;
+    height: 219px;
+    background-color: #EFC73A;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 55%;
+}
+
+.Container2 > img{
+    width: 100%;
+}
+/* .picture img{
+    margin-top: 0%;
+}
+
+.picture-Container{
+    background-color: #01A2D9;
+} */
+.footer {
+    max-width: 100%;
+    height: 124px;
+    background-color: #002764;
+}
+
+.footer p {
+    font-size: 14px;
+    color: white;
+}
+
+.TEXT {
+    margin-left: 20px;
+    padding-top: 32px;
+}
+
+/* @media screen and (max-width:768px){
+    .Container{
+        max-width:408px;
+        height: 100px;
+        background: #025C98;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .thumbnail{
+        color: white;  
+    }
+    .thumbnail h1{
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: absolute;
+        top: 0%;
+        left: 5%;
+    }
+    .thumbnail a{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.7px;
+        position: absolute;
+        top: 65%;
+        left: 5%;
+    }
+    .logo{
+        color: white;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;   
+    }
+    .nenkan{
+        position: absolute;
+        left: 72%;
+        width: 164px;
+        height: 136px;
+    }
+    .nenkan a{
+        position: absolute;
+        top: 26%;
+    }
+    .rekidai{
+        position: absolute;
+        top: 32%;
+        left: 62%;
+    }
+    .photo{
+        position: absolute;
+        left: 60%;
+        width: 164px;
+        height: 136px;
+        background: #004588;
+    
+    }
+    .photo a{
+        position: absolute;
+        top: 27%;
+        left: 20%;
+    
+    }
+    .main{
+        width: 1440px;
+        position: relative;
+    }
+    .Container2{
+        background-color: #01A2D9;
+        height: 300px;
+        max-width: 100%;
+    
+    }
+    
+    .top{
+        height: 239px;
+        background: #002764;
+        max-width: 100%;
+        position: relative;
+    }
+    .top a{
+        max-width: 100%;
+        position: absolute;
+        top: 35%;
+        left:11%;
+        color: white;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .katudou{
+        position: relative;
+    }
+    .katudou a{
+        position: absolute;
+        left: 11%;
+        margin-top: 8%;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        
+    
+    
+    }
+    .gallery{
+        max-width: 100%;
+        height: 677px;
+        background: #002764;
+        margin-top: 16%;
+    
+    }
+    .picutre1{
+        position: relative;
+    }
+    .item1 img{
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 146%;
+        left: 5%;
+    
+    }
+    .item2{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 146%;
+        left: 28%;
+    }
+    .item3{
+        width: 114px;
+    height: 162.354px;
+    position: absolute;
+    top: 146%;
+    left: 51%;
+
+    }
+    .item3 img{
+        width: 100px;
+        height: 50.50px;
+        position: absolute;
+        top: 1%;
+        left: 3%;
+    }
+    .item4{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 146%;
+        left: 74%;
+    }
+    .item5{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 208%;
+        left: 5%;
+    }
+    .item6{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 208%;
+        left: 28%;
+    }
+    .item7{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 208%;
+        left: 51%;
+    }
+    .item8{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 208%;
+        left: 74%;
+    }
+    .sankaku img{
+        position: absolute;
+        top: 258%;
+        left: 43%;
+    
+    }
+    .illust{
+        position: relative;
+    }
+    .illust a{
+        position: absolute;
+        left: 11%;
+        margin-top: 9%;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .en1 img{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .en2 img{
+        position: absolute;
+        top: 0%;
+        left: 60%;
+        width: 30%;
+        height: 30%;
+    }
+    .enn{
+        position: relative;
+    }
+    .ellips15{
+        position: absolute;
+        left: 0%;
+        width: 186px;
+        height: 187px;
+        border-radius: 50%;
+        background-color: #EFC73A;
+        margin-top: 0%;
+    
+    }
+    .ellips18{
+        position: absolute;
+        left: 0%;
+        width: 287px;
+        height: 288px;
+        border-radius: 50%;
+        background-color: #EFC73A;
+        margin-top: 0%;
+    
+    }
+    .gallery2{
+        height: 677px;
+        background: #002764;
+        margin-top: 20%;
+    }
+    
+    .item11 img{
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 356%;
+        left: 5%;
+    
+    }
+    .item22{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 356%;
+        left: 28%;
+    }
+    .item33{
+        width: 119px;
+        height: 162.354px;
+        position: absolute;
+        top: 356%;
+         left: 51%
+
+    }
+    .item33 img{
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 191%;
+        left: 20%;
+    }
+    .item44{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 356%;
+        left: 74%;
+    }
+    .item55{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 420%;
+        left: 5%;
+    }
+    .item66{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 420%;
+        left: 28%;
+    }
+    .item77{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 420%;
+        left: 51%;
+    }
+    .item88{
+        background-color: #88B3DD; ;
+        width: 100px;
+        height: 50.354px;
+        position: absolute;
+        top: 420%;
+        left: 74%;
+    }
+    .sankaku2 img{
+        position: absolute;
+        top: 468%;
+        left: 43%;
+    
+    }
+    .picutre2{
+        position: relative;
+    }
+    .en3 img{
+        position: absolute;
+        left: 42%;
+        top: 0%;
+    }
+    .hp{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #EFC73A;
+        position:absolute;
+        top: 387%;
+        left: 7%;
+    
+    }
+    .hp p1{
+        position: absolute;
+        top: 29%;
+        left: 13%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .hp a{
+        position: absolute;
+        top: 46%;
+        left: 10%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .En2{
+        position: relative;
+    }
+    .enn2{
+        width: 100px;
+        height: 100px;
+        background-color: #EFC73A;
+        border-radius: 50%;
+        position: absolute;
+        left: 54%;
+        top: 377%;
+    
+    
+    }
+    .Container3{
+        max-width: 100%;
+        background: #01A2D9;
+        height: 813px;
+        position: relative;
+        
+    }
+    .Container3 img{
+        max-width:100%;
+        position: absolute;
+        top: 14%;
+        
+    }
+    
+    
+    .footer{
+        max-width:100%;
+        height: 124px; 
+        background-color:#002764;  
+    }
+    .footer p{
+        font-size: 14px;
+        color: white;
+    }
+    .TEXT{
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+
+}
+ */

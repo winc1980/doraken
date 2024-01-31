@@ -3,9 +3,12 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
-      "source.fixAll.stylelint": true
+      "source.fixAll.stylelint": "explicit"
     },
   
     // prettier settings
     "prettier.prettierPath": "./node_modules/prettier",
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
   }
