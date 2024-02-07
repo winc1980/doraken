@@ -988,13 +988,7 @@ body * {
     color: #ffffff;
     top:45vw;
     left:95px;
-<<<<<<< HEAD
-}
-
-@media screen and (max-width:1110px) {
-=======
 }@media screen and (max-width:1110px) {
->>>>>>> origin/main
     .firstView_closedDoor_join{
         width:30vw;
     }
@@ -1028,7 +1022,6 @@ body * {
         left:5vw;
         font-size: 3.4rem;
     }
-<<<<<<< HEAD
 }
 @media screen and (max-width:600px) {
     .firstView_openDoor_img{
@@ -1040,8 +1033,6 @@ body * {
     .firstView_txt{
         display: none;
     }
-=======
->>>>>>> origin/main
 }
 /* firstViewここまで*/
 
