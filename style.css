@@ -381,11 +381,11 @@ body * {
     .text ol{
         /* list-style-type: none; */
         color: white;
-        position: absolute;
+        /* position: absolute;
         top: 39%;
-        left: 5%;
-        width: 312.4px; /*417*/
-        height: 66px; /*330*/
+        left: 5%; */
+        /* width: 312.4px;  */
+        height: 66px; 
         line-height: 1.5;
     }
     .text a{
@@ -471,7 +471,7 @@ body * {
         
     }
     .rectangle{
-        width: 572px;
+        /* width: 572px; */
         height: 293px;
         background-color: #FAF59F;
         margin-top: 16%; 
@@ -496,7 +496,7 @@ body * {
         
     }
     .sns{
-        width: 89.6px; /*448*/
+        width: 89.6px; 
         height: 89.4px;
         border-radius: 50%;
         background-color:#00163A ;
@@ -619,15 +619,10 @@ body * {
     .youtube{
         width: 100px;
         height: 100px;
-        flex-shrink: 0;
         position:absolute;
         left: 4%;
         top: 115%;
         border-radius: 15px;
-        /* border: 3px solid #000;
-        background: #E1B209; */
-        
-    
     }
     .youtube img{
         position: absolute;

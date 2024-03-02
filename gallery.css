@@ -290,7 +290,6 @@ body * {
 }
 
 .swiper2-pagination {
-    /* width: fit-content; */
     text-align: center;
     color: white;
     top: 84.8%;
@@ -305,9 +304,6 @@ body * {
 
 .triangle-prev-1 {
     transform: rotate(270deg);
-    /* position: absolute; */
-    /* left: 41%; */
-    /* top: 83%; */
     width: 0;
     height: 0;
     border-left: 13px solid transparent;
@@ -315,7 +311,6 @@ body * {
     border-bottom:22.516px solid rgb(250, 250, 250);
 
   }
-
   .triangle-prev-2 {
     transform: rotate(270deg);
     position: relative;
@@ -327,8 +322,6 @@ body * {
     border-right: 10px solid transparent;
     border-bottom: 17.32px solid rgba(0, 39, 100, 1);
   }
-
-
 .triangle-next-1 {
     transform: rotate(90deg);
     /* position: relative; */
@@ -339,14 +332,8 @@ body * {
     border-left: 13px solid transparent;
     border-right: 13px solid transparent;
     border-bottom:22.516px solid rgb(250, 250, 250);
-
   }
-
-  /* border-leftとborder-rightの値を同じもにする /
-          / border-bottomの値を「border-left * 1.732」の値にする /
-          / 上記の式で正三角形が作れる。 */
-
-  .triangle-next-2 {
+ .triangle-next-2 {
     transform: rotate(90deg);
     position: relative;
     top: -19.3px;
@@ -357,66 +344,20 @@ body * {
     border-right: 10px solid transparent;
     border-bottom: 17.32px solid rgba(0, 39, 100, 1);
   }
-/* .swiper2-button-prev,
-.swiper2-button-next{
-    position: absolute;
-    bottom: 86px;
-    top: auto;
-    right: 45vw;
-}
-
-.swiper2-button-prev{
-    left: 45vw;
-}
-
-.swiper2-button-prev::after,
-.swiper2-button-next::after {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    top: 0%; 
-    width: 15px;
-    height: 15px;
-    transform: rotate(45deg);
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-}
-
-.swiper2-button-prev::after{
-    transform: rotate(-135deg);
-}
-
-.swiper2-button-prev::before,
-.swiper2-button-next::before{
-    content: "";
-    display: block;
-    position: absolute;
-    left: 7%;
-    top: 0%; 
-    width: 2px;
-    height: 20px;
-    background: white;
-} */
-
 
 .en1 img {
     position: absolute;
     top: 0;
     left: 0;
 }
-
 .en2 img {
     position: absolute;
     right: 0;
     top: 0;
 }
-
 .enn {
     position: relative;
 }
-
 .ellips15 {
     position: absolute;
     left: 0%;
@@ -582,7 +523,7 @@ body * {
         height: 70px;
         position:absolute;
         top: 23%;
-        left: 86%;
+        left: 83%;
     }
     .icon span {
         position: absolute;
@@ -668,7 +609,7 @@ body * {
     }
     
     
-    .activity-photos .swiper .swiper-wrapper .swiper-slide {
+    .activity-photos .swiper .swiper-wrapper .swiper-slide{
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-template-rows: auto auto;
@@ -676,7 +617,6 @@ body * {
         place-items: center;
         display: none;
     }
-    
     .swiper-pagination {
         text-align: center;
         color: white;
@@ -728,58 +668,7 @@ body * {
     
 
 
-    /* .gallery{
-        max-width: 100%;
-        height: 677px;
-        background: #002764;
-        margin-top: 16%;
     
-    }
-    .picutre1{
-        position: relative;
-    }
-    .item1 img{
-        width: 100px;
-        height: 50.354px;
-        position: absolute;
-        top: 146%;
-        left: 5%;
-    
-    }
-    .item2{
-        background-color: #88B3DD; ;
-        width: 100px;
-        height: 50.354px;
-        position: absolute;
-        top: 146%;
-        left: 28%;
-    }
-    .item3{
-        width: 114px;
-    height: 162.354px;
-    position: absolute;
-    top: 146%;
-    left: 51%;
-
-    } */
-    
-    /* .item4{
-        background-color: #88B3DD; ;
-        width: 100px;
-        height: 50.354px;
-        position: absolute;
-        top: 146%;
-        left: 74%;
-    }
-    .item5{
-        background-color: #88B3DD; ;
-        width: 100px;
-        height: 50.354px;
-        position: absolute;
-        top: 208%;
-        left: 5%;
-    }
-     */
 
      .illust {
         height: 217px;
@@ -884,10 +773,7 @@ body * {
     
       }
     
-      /* border-leftとborder-rightの値を同じもにする /
-              / border-bottomの値を「border-left * 1.732」の値にする /
-              / 上記の式で正三角形が作れる。 */
-    
+     
       .triangle-next-2 {
         transform: rotate(90deg);
         position: relative;
@@ -1001,9 +887,7 @@ body * {
         position: absolute;
         left: 54%;
         top: 250%;
-        display: none;
-    
-    
+        display: none;  
     }
     .Container3{
         max-width: 100%;
@@ -1019,12 +903,8 @@ body * {
         position: absolute;
         top:0%;
         background-color: #001630;
-        display: none;
-
-        
+        display: none;   
     }
-    
-    
     .footer{
         max-width:100%;
         height: 124px; 
@@ -1039,5 +919,4 @@ body * {
         margin-left: 20px;
         padding-top: 20px;
     }
-
 }
