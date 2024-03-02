@@ -18,16 +18,14 @@ body * {
     font-size: 1.6rem;
     margin: 0;
 }
-<<<<<<< HEAD
 .Container{
     padding-top: 50px;
     background-color: #01A2D9;
-    width: 1438px;
+ 
 }
 .Container1{
     margin: 0 auto; 
     background-color:#01A2D9; 
-    max-width: 1200px;  
 }
 .img{
     display: flex;
@@ -37,20 +35,22 @@ body * {
     width: 300px;
     height: 300px;
     margin-left: 30px;
+    margin-top: 11%;
 }
 
 .img1 img{
     height: 191.68px;
     width: 191.68px;
     text-align: right;
-     margin-top: -30px; 
+     margin-top: 29px;
+     margin-left: -91%; 
    
 }
 
 .Dora{
-    margin-top:-139px ;
+    margin-top:-110px ;
+    margin-left: -6%;
     background-color: #01A2D9;
-    max-width: 1200px;
 }
 .dorayaki1{
     width: 704px;
@@ -88,7 +88,7 @@ body * {
     padding-left: 210px;
 } 
 .text ol{
-    list-style-type: none;
+    /* list-style-type: none; */
     color: white;
     position: absolute;
     top: 38%;
@@ -117,6 +117,7 @@ body * {
     position: absolute;
     left: 90%;
     margin-top: 41%;
+    display: none;
 }
 .tabekake2{
     width:131px;
@@ -126,6 +127,7 @@ body * {
     position: absolute;
     left: 78%;
     margin-top: 46%;
+    display: none;
 }
 .tabekake3{
     width:131px;
@@ -135,6 +137,7 @@ body * {
     position: absolute;
     left: 68%;
     margin-top: 59%;
+    display: none;
 }
 
 
@@ -144,8 +147,8 @@ body * {
 }
 .kyouryu{
     position: relative;
-    top: -26%;
-    left: 57%;
+    top: -15%;
+    left: 40%;
     bottom: 0%;
 }
 
@@ -166,7 +169,7 @@ body * {
     height: 1500px;
     margin: 0 auto; 
     background-color:#01A2D9;
-    max-width: 1200px;
+    
 }
 .SNS{
     padding-top: 131px;
@@ -187,12 +190,12 @@ body * {
     height: 48px;
     position: absolute;
     top: 36%;
-    left: 30%;
+    left: 28%;
 }
 .suzu1{
     position: relative;
     top: 21%;
-    left: 36%;
+    left: 28%;
 }
 .san{
     position: relative;
@@ -283,6 +286,8 @@ body * {
 }
 .Container3 img{
     max-width:100%;
+    margin-top: 8%;
+
 }
 .footer{
     max-width:100%;
@@ -298,7 +303,366 @@ body * {
     padding-top: 20px;
 }
 
-=======
+
+@media screen and (max-width: 680px) {
+    /* 担当：田中萌 */
+    .Container{
+        padding-top: 50px;
+        background-color: #00163A;
+     
+    }
+    .Container1{
+        margin: 0 auto; 
+        background-color:#00163A; 
+    }
+    .img{
+        display: flex;
+        justify-content: space-between;
+    }
+    .img2 img{
+        width: 120px;
+        height: 120px;
+        margin-left: 30px;
+        margin-top: 11%;
+        display: none;
+    }
+    
+    .img1 img{
+        height: 84.68px;
+        width: 84.68px;
+        text-align: right;
+         margin-top: 29px;
+         margin-left: -91%; 
+         display: none;
+       
+    }
+    
+    .Dora{
+        margin-top:32px ;
+        margin-left: -1%;
+        background-color: #00163A;
+    }
+    .dorayaki1{
+        width: 400px; /*700*/
+        height: 400px;
+        border-radius: 50%;
+        background-color: #FAF59F;
+        margin-left: 137px;
+        padding-top: 28px;
+        padding-left: 26px;
+        
+    }
+    .dorayaki2{
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        background-color: #936047;
+        margin-left:-1px;
+        position: relative;
+        
+    
+    }
+    .suzu{   
+        position: absolute;
+        top: 13%;
+        left: 30%;
+        display: none;
+    } 
+    .suzu img{
+        width: 12px;
+        height: 12px;
+    }
+    .text h1{
+        font-size: 19px;
+        color: white;
+        padding-top: 70px;
+        padding-left: 133px;
+    } 
+    .text ol{
+        /* list-style-type: none; */
+        color: white;
+        /* position: absolute;
+        top: 39%;
+        left: 5%; */
+        /* width: 312.4px;  */
+        height: 66px; 
+        line-height: 1.5;
+    }
+    .text a{
+        font-size: 8px;
+        display: none;
+    }
+    .text li{
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        color: white;
+        white-space:normal; 
+    }
+
+    .text ol li:nth-of-type(2){
+        margin: 20px 0;
+    }
+
+    .tabekake{
+        position: relative;
+    }
+    
+    .tabekake1{
+     width:67.1px;  /* 131 */
+        height: 67.1px;
+        border-radius: 50%;
+        background-color:#00163A;  
+        position: absolute;
+        left: 89%;
+        margin-top: 40%;
+    }
+    .tabekake2{
+        width:67.1px;
+        height: 67.1px;
+        border-radius: 50%;
+        background-color:#00163A;  
+        position: absolute;
+        left: 79%;
+        margin-top: 47%;
+    }
+    .tabekake3{
+        width:67.1px;
+        height: 67.1px;
+        border-radius: 50%;
+        background-color:#00163A;  
+        position: absolute;
+        left: 73%;
+        margin-top: 60%;
+    }
+    .kyouryu{
+        position: relative;
+        top: -15%;
+        left:80%;
+        bottom: 0%;
+        height: 105px; /*  420 */
+        width: 105px;
+        display: none;
+    }
+    
+    .denki img{
+        width: 44px;  /*220*/
+        height: 44px;
+    
+    }
+    .denki{
+        overflow: hidden;
+        position: relative;
+        top: -28%;
+        left: -38%;
+        width: 80px;  /*220*/
+        height: 80px;
+        display: none;
+    
+        
+    }
+    
+    
+    .Container2{
+        height: 445px;
+        margin: 0 auto; 
+        background-color:#00163A;
+        
+    }
+    .rectangle{
+        /* width: 572px; */
+        height: 293px;
+        background-color: #FAF59F;
+        margin-top: 16%; 
+        margin-left: 16%;  
+        border-radius:20% 0% 0% 20%;
+        position: relative;
+
+
+    }
+    .disp-img{
+        background-image:url(images/Frame\ 128\ \(2\).png);
+        width: 195px;
+        height: 116px;
+        position: absolute;
+        top: 70px;
+        right: 63px;
+    }
+    .SNS{
+        padding-top: 131px;
+        position: relative;
+        
+        
+    }
+    .sns{
+        width: 89.6px; 
+        height: 89.4px;
+        border-radius: 50%;
+        background-color:#00163A ;
+        margin-left: 187px;
+        margin-top: -11%;
+        
+        
+    }
+    .sns h1{
+        font-size: 31px;
+        width: 82px;
+        height: 48px;
+        position: absolute;
+        top: -177%;
+        left: 23%;
+        
+    }
+    .suzu1{
+        position: relative;
+        top: 21%;
+        left: 28%;
+        display:none;
+    }
+    .san{
+        position: relative;
+        top: -255%;
+        left: -13%;
+        
+    }
+    .san img{
+        width: 60px;
+        height: 60px;
+    }
+    .logo {
+        position: relative;
+        top: -325%;
+        left: 43%;
+        
+    }
+    .logo img{
+        width: 49px;
+        height: 49px;
+
+    }
+    .KAISHI{
+        width: 119.4px;/*597*/
+        height: 119.4px;
+        border-radius: 50%;
+        margin-left: 176px;
+        margin-top:-20%;
+        background-color: #00163A;
+        position: relative;
+        
+       
+    }
+    .kaishi{
+        margin-left: 200px;
+        padding-top: 90px;
+        display:none; 
+        
+    }
+    .kaishi img{
+        width: 20px;
+        height: 40px;
+        display:none;
+
+    }
+    .tuhan{
+        margin-top: 6%;
+        position: relative;
+        left: -28%;
+        width: 84.6px;/*423*/
+        height: 18.4px;
+        border-radius: 15px;
+        border: 3px solid #000;
+        display: none;
+        background-color:#E1B209 ;
+        display: none;
+        
+    }
+    .tuhan a{
+        font-size: 8px;
+        position: absolute;
+        top: 14%;
+        left: 10%;
+        display:none;
+    }
+    .kaishi.img{
+        margin-top: 20px;
+        display:none;
+    }
+    .DOUGA{
+        width: 76.2px;/*381*/
+        height: 76.2px;
+        border-radius: 50%;
+        background-color: #EFC73A;
+        margin-left: -428px;
+        position: absolute;
+        top: -69%;
+        
+        
+    }
+    .douga{
+        margin-left: 109px;
+        padding-top: 108px;
+        position: relative;
+        
+    }
+    .douga a{
+        color: #000;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        padding-top:32px;
+        margin-left: 1px;
+        display:none;
+    }
+    
+    .youtube{
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        left: 4%;
+        top: 115%;
+        border-radius: 15px;
+    }
+    .youtube img{
+        position: absolute;
+        left: 501%;
+        top: -240%;
+        width: 63%;
+        height: 63%;
+        
+    }
+    .Container3{
+        background-color: #00163A;
+        height: 361px;
+        display: none;
+        
+    }
+    .Container3 img{
+        max-width:100%;
+        margin-top: -3%;
+        display: none;
+    
+    }
+    .footer{
+        display: none;
+        max-width:100%;
+        height: 124px; 
+        background-color:#002764;  
+    }
+    .footer p{
+        font-size: 14px;
+        color: white;
+    }
+    .TEXT{
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+
+
+    
+}
+
 /* headerここから*/
 .header_contents{
   position:relative;
@@ -619,13 +983,7 @@ body * {
     color: #ffffff;
     top:45vw;
     left:95px;
-<<<<<<< HEAD
-}
-
-@media screen and (max-width:1110px) {
-=======
 }@media screen and (max-width:1110px) {
->>>>>>> origin/main
     .firstView_closedDoor_join{
         width:30vw;
     }
@@ -659,7 +1017,6 @@ body * {
         left:5vw;
         font-size: 3.4rem;
     }
-<<<<<<< HEAD
 }
 @media screen and (max-width:600px) {
     .firstView_openDoor_img{
@@ -671,8 +1028,6 @@ body * {
     .firstView_txt{
         display: none;
     }
-=======
->>>>>>> origin/main
 }
 /* firstViewここまで*/
 
@@ -1217,4 +1572,3 @@ body * {
 }
 
 }
->>>>>>> origin/main
