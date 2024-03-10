@@ -7,8 +7,8 @@
     <title>ドラえもん研究会</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" type="text/css" href="gallery.css" media="all">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
 </head>
@@ -16,31 +16,26 @@
 <body>
     <div class="doraken">
         <header>
-            <div class="Container">
-                <div class="thumbnail">
-                    <h1>早稲田大学 ドラえもん研究会</h1>
-                    <a>waseda univercity doraemon sutudy club</a>
+            <section class="header_contents">
+                <div class="header_left_txt">
+                    <a href="index.html">
+                        <h1 class="header_left_txt_jp">早稲田大学 ドラえもん研究会</h1>
+                        <p class="header_left_txt_en">waseda univercity doraemon study club</p>
+                    </a>
                 </div>
-                <div class="logo">
-                    <div class="rekidai">
-                        <a>歴代役員</a>
-                    </div>
-                    <div class="nenkan">
-                        <a>年間スケジュール</a>
-                    </div>
-                    <div class="photo">
-                        <a>ギャラリー</a>
-                    </div>
+                <div class="header_right_btns">
+                    <a class="header_right_btns_boardMembersHistory" href="./executive_member.html">歴代役員</a>
+                    <a class="header_right_btns_annualSchedule" href="annual_schedule.html">年間スケジュール</a>
+                    <a class="header_right_btns_gallery" href="gallery.html">ギャラリー</a>
                 </div>
-                <div class="hamburger">
-                    <div class="icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+            </section>
+            <section class="header_contents_mob">
+                <div class="header_left_txt">
+                    <h1 class="header_left_txt_jp">早稲田大学 ドラえもん研究会</h1>
+                    <p class="header_left_txt_en">waseda univercity doraemon study club</p>
                 </div>
-            </div>
-
+                <img class="header_ham_btn" src="doc/images/ham_img.webp">
+            </section>
         </header>
         <main>
             <div class="Container2">
